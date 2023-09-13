@@ -1,3 +1,3 @@
 # Oliver-personal-website
 
-hardworking, loyal, honest
+Hardworking, Loyal, Honest
