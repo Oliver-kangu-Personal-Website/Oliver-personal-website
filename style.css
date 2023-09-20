@@ -1,61 +1,73 @@
-/* style.css */
-
-/* Resetting default margin and padding */
-body, h1, h2, h3, p {
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* Setting a nice background color */
 body {
-    background-color: #f6f6f6;
     font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
 }
 
-/* Styling the header */
+body {
+    background: #f6e1e1;
+    color: #232323;
+}
+
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
+    background: #e0e0e0;
 }
 
-.header a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
+body {
+    max-width: 960px;
+    margin: 8px auto 0;
 }
 
-.header .name {
-    font-size: 24px;
-    font-weight: bold;
+body>* {
+    margin-bottom: 10px;
 }
 
-/* Styling the main content */
-main {
-    margin: 20px;
-    text-align: center;
+nav {
+    float: right;
 }
 
-h1, h2, h3 {
-    color: #333;
-}
-
-/* Styling the quote */
-.quote {
-    font-style: italic;
-}
-
-/* Styling the footer */
 footer {
-    background-color: #333;
-    color: #fff;
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    background-color: #e0e0e0;
+    color: black;
     text-align: center;
-    padding: 10px;
 }
 
-.footer a {
-    color: #fbfbfb;
-    text-decoration: none;
-    margin: 0 10px;
+.quote {
+    font-family: 'Satisfy', cursive;
+    font-weight: 100;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 2em;
 }
+
+.project {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    color: #282626;
+}
+
+.project-name {
+    font-weight: 900;
+    font-size: 2em;
+    margin: 0 0 1em;
+    border-bottom: 1px solid #ccc;
+}
+
+img {
+    width: 240px;
+    float: right;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    }
