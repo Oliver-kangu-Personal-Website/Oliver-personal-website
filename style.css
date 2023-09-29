@@ -71,3 +71,83 @@ img {
     margin-left: 1px;
     margin-bottom: 1px;
 } 
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.contact-box{
+    background: white;
+    display: flex;
+}
+
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right{
+    flex-basis: 60%;
+    padding: 40px;
+    background: blue;
+    color: white;
+}
+
+.h1{
+    margin-bottom: 10px;
+}
+
+.container p{
+    margin-bottom: 40px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.art-piece {
+    width: 600px;
+    height: 400px;
+    background-color: #3498db; 
+    position: relative;
+    z-index: 1;
+}
+
+.purchase-form {
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 2;
+    text-align: center;
+    width: 300px;
+}
+
+.purchase-form label,
+.purchase-form input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.purchase-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.purchase-form input[type="submit"] {
+    background-color: #2ecc71; 
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+}
+
+.purchase-form input[type="submit"]:hover {
+    background-color: #27ae60; 
+}
